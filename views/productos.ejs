@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/productos.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://kit.fontawesome.com/ed4b940aa8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <title>Productos</title>
+</head>
+<body>
+<%- include('./partials/header.ejs') %>
+<main>
+    <section>
+        <div class="articulos">
+        <article>
+            <img class="imagen" src = "/img/Cocina.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$40.00</div>
+                <div class="descripciones">Cocina</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+        </article>
+        <article>
+            <img class="imagen" src = "/img/Grill con utiles.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$25.25</div>
+                <div class="descripciones">Grill con útiles</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+        </article>
+        <article>
+            <img class="imagen" src = "/img/Platos.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$1.00</div>
+                <div class="descripciones">Platos</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+    </section>   
+    <section>
+        <div class="articulos">
+        <article>
+            <img class="imagen" src = "/img/Cocina.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$40.00</div>
+                <div class="descripciones">Cocina</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+        </article>
+        <article>
+            <img class="imagen" src = "/img/Grill con utiles.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$25.25</div>
+                <div class="descripciones">Grill con útiles</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+        </article>
+        <article>
+            <img class="imagen" src = "/img/Platos.jpg">
+            <div class="datosarticulos">
+                <div class="precios">$1.00</div>
+                <div class="descripciones">Platos</div>
+                <div class="cantidad"><label for="quantity"></label>
+                <input type="number" id="quantity" name="cantidad" min="0" max="100"></div>
+                <button class="paracomprar">Comprar</button>
+            </div>
+    </section> 
+</main>
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>

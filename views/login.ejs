@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://kit.fontawesome.com/ed4b940aa8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+<%- include('./partials/header.ejs') %>
+<body class="color">
+    <div id='AppendHere'></div>
+    <h1> Ingresa a tu cuenta</h1>
+<form id="loginform" action="#">
+
+    
+    
+
+        <i class="fa fa-envelope"></i>
+        <input type="email" placeholder="E-mail" required autocomplete="off" validate>
+        <i class="fa fa-lock"></i>
+        <input type="password" placeholder="Password">
+        <input type="checkbox">
+        <span>Recordarme</span><br>
+    </div>
+
+    <div class="log-sign">
+        <button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i> Ingresar</button>
+    </div>
+        
+    <div class="social-media">
+		<button class="btn1">
+		<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i> Ingresa con facebook</a>
+		</button>
+
+		<button class="btn2">
+		<a href="#" target="_blank"><i class="fa fa-twitter"></i> Ingresa con Google</a>
+		</button>
+	</div>
+
+	<p class="forget-password">Olvidaste tu contraseña? <a href="#">click aca</a></p>
+
+</form>
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>

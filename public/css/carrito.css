@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF8E8;
+}
+header{
+    height: 10%;
+    background-color: aqua;
+}
+.barra{
+    display: flex;
+    background-color: #94B49F;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.busqueda{
+    align-self:center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form{
+    display:flex;
+}
+.fas{
+    color: white;
+}
+.logo{
+    align-self: center;
+    height: 2.8em;
+    border: 4px;
+    padding-left: 5px;
+}
+
+.textos{
+    display: none;
+    align-self: center;
+}
+
+@media(min-width:460px){
+
+.textos{
+    display: flex;
+    align-self: center;
+}
+}
+.encabezados{
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    padding: 15px;
+    font-size: 1em;
+    color:white;
+}
+.inicio-carro{
+    display: flex;
+    align-self: center;
+    padding-right: 5px;
+}
+.burger-menu{
+    color:white;
+    align-self: center;
+    padding:6px;
+    font-size: 2em; 
+}
+.carrito{
+    color:white;
+    align-self: center;
+    padding:6px;
+    font-size: 2em; 
+}
+
+main{
+    height: 80%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.foto-stock{
+    display: flex;
+    width: 20%;
+    border: double 3px #ECB390;
+    transition: 500ms;
+}
+.foto-stock:hover{
+    transform: scale(1.05);
+}
+.arriba{
+    display: flex;
+}
+.cosas-texto{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 15px;
+    text-align: end;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.imagen-carrito{
+    width: 15%;
+    height: auto;
+}
+.carrito-cantidad{
+    display: flex;
+    border: solid 1px #DF7861;
+    justify-content: space-between;
+}
+.compras-carrito{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 25px;
+    color: #94B49F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.cantidad-items{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+    color: #94B49F;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.item{
+    display: flex;
+    border: solid 1px #DF7861;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imagen-carrito{
+    margin: 10px;
+    border: double 3px #ECB390;
+    background-color: white;
+    justify-content: flex-start;
+}
+.identificadores{
+    margin-top: 10px;
+    display: block;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 15px;
+}
+.imagen-idem{
+    display: flex;
+    justify-content: flex-start;
+}
+.detalles{
+    margin: 10px 10px 0 0;
+    display: flex;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 15px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.item-name{
+    flex-direction: row;    
+    width: 50%;
+}
+.precio-numero{
+    font-style: oblique;
+    color: #ECB390;
+    justify-content: flex-end;
+    width: 100%;
+}
+.precios-totales{
+    border: solid 1px #DF7861;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.total{
+    margin: 5px 0 5px 10px;
+}
+.total-numeros{
+    margin: 5px 10px 5px 0;
+}
+.total1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.total1-numero{
+    font-weight: bold;
+    font-size: 20px;
+}
+.precios-totales .total-numeros{
+    flex-direction: row-reverse;
+}
+.pago{
+    background-color: #ECB390;
+    font-family: 'M PLUS 1p', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: 100%;
+    transition-duration: 400ms;
+}  
+.pago:hover{
+    background-color: #DF7861;
+}
+
+footer{
+    display: flex;
+    background-color:#94B49F;;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pie{
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.legales{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 10px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.buscanos{
+    color:grey;
+    font-size: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+}
+
+.redessociales{
+    display: flex;
+    align-self:flex-end;
+    color:grey;
+    padding: 2px;
+    justify-content: center;
+}
+
+.botonsuscribir{
+    color:black;
+    font-size: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+    height: 30px;
+    padding:4px;
+}
+
+.red{
+    padding:2px
+}

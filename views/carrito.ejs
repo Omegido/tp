@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/carrito.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://kit.fontawesome.com/ed4b940aa8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <title>Carrito</title>
+</head>
+<body>
+<%- include('./partials/header.ejs') %>
+<main>
+        <div class="arriba">
+            <img src="/img/Stock.jpg" alt="Uh" class="foto-stock">
+            <p class="cosas-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint error, eligendi sequi ipsam, incidunt est voluptate harum et dolor blanditiis veniam at sunt debitis numquam asperiores voluptas temporibus quibusdam?</p>
+        </div>
+        <br><br>
+        <div class="carrito-cantidad">
+            <p class="compras-carrito">Carrito de compras</p>
+            <p class="cantidad-items">3 items</p>
+        </div>
+        <div class="item">
+            <div class="imagen-idem">
+            <img src="/img/Cocina.jpg" alt="ah" class="imagen-carrito">
+            <div class="identificadores">
+                <p class="items">ID:</p>
+                <p class="cantidad">Cantidad:</p>
+                <p class="precio">Precio x unidad:</p>   
+            </div> </div>
+            <div class="detalles">
+                <p class="item-name">Cocina</p>
+                <p class="cantidad-num">1</p>
+                <p class="precio-numero">$40.00</p>             
+        </div></div>
+
+        <div class="item">
+            <div class="imagen-idem">
+            <img src="/img/Grill con utiles.jpg" alt="ah" class="imagen-carrito">
+            <div class="identificadores">
+                <p class="items">ID:</p>
+                <p class="cantidad">Cantidad:</p>
+                <p class="precio">Precio x unidad:</p>   
+            </div></div>
+            <div class="detalles">
+                <p class="item-name">Grill con utiles</p>
+                <p class="cantidad-num">1</p>
+                <p class="precio-numero">$25.25</p>                
+        </div></div>
+
+        <div class="item">
+            <div class="imagen-idem">
+            <img src="/img/Platos.jpg" alt="ah" class="imagen-carrito">
+            <div class="identificadores">
+                <p class="items">ID:</p>
+                <p class="cantidad">Cantidad:</p>
+                <p class="precio">Precio x unidad:</p>   
+            </div></div>
+            <div class="detalles">
+                <p class="item-name">Platos</p>
+                <p class="cantidad-num">12</p>
+                <p class="precio-numero">$1.00</p>                
+        </div></div>
+        <div class="precios-totales">
+        <div class="total">
+            <h3 class="subtotal">Subtotal:</h3>
+            <h3 class="tax">Tax:</h3>    
+            <h3 class="total1">Total:</h3>
+        </div>
+        <div class="total-numeros">
+            <h3 class="subtotal-numero">$77.25</h3>
+            <h3 class="tax-numero">$16.25</h3>
+            <h3 class="total1-numero">$93.50</h3>
+        </div>
+        </div>
+        <button class="pago">Realizar pago</button>    
+        <br><br> 
+    </main>
+
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>

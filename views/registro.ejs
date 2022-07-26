@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://kit.fontawesome.com/ed4b940aa8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <title>Formulario de registro</title>
+</head>
+<body>
+<%- include('./partials/header.ejs') %>
+<body class="cocinero">
+        <div class="box"> 
+        <div class="formulario">
+
+            <form id="form-login" action="#" method="post" >
+                <p><label for="nombre">Nombre:</label></p>
+                    <input name="nombre" type="text" id="nombre" class="nombre" placeholder="Juan Antonio" autofocus=""/></p>
+
+                <p><label for="apellido">Apellidos:</label></p>
+                    <input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Perez" /></p>
+
+                 <p><label for="telefono">telefono:</label></p>
+                    <input name="telefono" type="number" id="telefono" class="telfono" placeholder="+541123456789" /></p>
+                
+
+                <p><label for="correo">Correo:</label></p>
+                    <input name="correo" type="text" id="correo" class="correo" placeholder="email@email.com" /></p>
+
+                <p><label for="pass">Password:</label></p>
+                    <input name="pass" type="password" id="pass" class="pass" placeholder="Contraseña"/></p>
+
+                <p><label for="repass">Repetir Password:</label></p>
+                    <input name="repass" type="password" id="repass" class="repass" placeholder="Repite contraseña" /></p>
+
+                <p id="bot"><input name="submit" type="submit" id="boton" value="Registrarse" class="boton"/></p>
+            </form>
+        </div>
+        </p>
+
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>

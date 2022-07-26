@@ -1,0 +1,55 @@
+
+footer{
+    display: flex;
+    background-color:#94B49F;;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+.pie{
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.legales{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 10px;
+    color: #3366bb;
+    align-self: center;
+    text-align: left;
+}
+
+.buscanos{
+    color:grey;
+    font-size: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+}
+
+.redessociales{
+    display: flex;
+    align-self:flex-end;
+    color:grey;
+    padding: 2px;
+    justify-content: center;
+}
+
+.botonsuscribir{
+    color:black;
+    font-size: 8px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+    height: 30px;
+    width: 160px;
+    padding:4px;
+}
+
+.red{
+    padding:2px
+}

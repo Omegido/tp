@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    background-color:#FCF8E8;
+}
+
+
+.barra{
+    display: flex;
+    background-color: #94B49F;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.busqueda{
+    align-self:center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form{
+    display:flex;
+}
+
+.logo{
+    align-self: center;
+    height: 2.8em;
+    border: 4px;
+    padding-left: 5px;
+}
+
+.textos{
+    display: none;
+    align-self: center;
+}
+
+@media(min-width:460px){
+
+.textos{
+    display: flex;
+    align-self: center;
+}
+}
+.encabezados{
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    padding: 15px;
+    font-size: 0.7em;
+    color:white;
+}
+
+.inicio-carro{
+    display: flex;
+    align-self: center;
+    padding-right: 5px;
+}
+
+.burger-menu{
+    color:white;
+    align-self: center;
+    padding:6px;
+    font-size: 2em; 
+}
+
+.carrito{
+    color:white;
+    align-self: center;
+    padding:6px;
+    font-size: 2em; 
+}
+
+.articulos{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+article{
+    width: 30%;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.datosarticulos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+
+.precios{
+    font-size: 14px;
+    width: 50%;
+}
+
+.descripciones{
+    font-size: 12px;
+    color: #666;
+    display:block;
+}
+
+.botoncomprar{
+    align-items: flex-end;
+    width:fit-content;
+}
+
+footer{
+    display: flex;
+    background-color:#94B49F;;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+.pie{
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.legales{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 10px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.buscanos{
+    color:grey;
+    font-size: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+}
+
+.redessociales{
+    display: flex;
+    align-self:flex-end;
+    color:grey;
+    padding: 2px;
+    justify-content: center;
+}
+
+.botonsuscribir{
+    color:black;
+    font-size: 10px;
+    font-family: 'M PLUS 1p', sans-serif;
+    align-self: center;
+    text-align: center;
+    height: 30px;
+    padding:4px;
+}
+
+.red{
+    padding:2px
+}
